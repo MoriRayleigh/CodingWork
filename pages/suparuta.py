@@ -1,7 +1,17 @@
 import streamlit as st
+import sys
+import os
+
+# --- 【ここが重要】親フォルダ（一つ上）を読み込めるようにする魔法 ---
+# 現在のファイルの場所から見て「..（一つ上）」を検索パスに追加
+sys.path.append(os.path.abspath(os.path.dirname(__file__) + "/.."))
+import components 
 
 # ページ設定
-st.set_page_config(page_title="コデワーク 自走コース", page_icon="SP")
+st.set_page_config(page_title="コデワーク 自走コース", page_icon="SPR")
+
+# --- 共通部品を表示 ---
+components.display_hero_section()
 
 # タイトル
 st.title("コデワーク スパルタコース 商品説明ページ")
