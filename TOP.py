@@ -52,3 +52,10 @@ with st.expander("詳細を見る", expanded=True):
     st.write("合同会社 挑与本願")
     st.write("〒621-0834 京都府亀岡市篠町広田2丁目")
     st.write("担当：森 翔一")
+
+st.markdown("---")
+
+st.header("法務情報")
+st.caption("法律に基づく表記はこちらをご確認ください。")
+# ここでページへのリンクを作成
+st.page_link("pages/tokusho.py", label="特定商取引法に基づく表記", icon="⚖️")
