@@ -49,7 +49,7 @@ st.markdown("---")
 st.subheader("🧑 大人のプログラミングクラブ")
 st.write("プログラミングを『ゆるく、長く、確実に』学ぶ大人の部活コースです。")
 st.caption("対象: 『ゆるく、長く、確実に』プログラミングを学びたい方 / 期間: 24ヶ月")
-st.page_link("pages/oldprogramclub.py", label="詳細・お申し込み", icon="⚔️")
+st.page_link("pages/oldprogramclub.py", label="詳細・お申し込み", icon="👍")
 
 
 st.markdown("---")
