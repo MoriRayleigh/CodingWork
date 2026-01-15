@@ -45,6 +45,15 @@ st.page_link("pages/suparuta.py", label="スパルタコースの詳細・お申
 
 st.markdown("---")
 
+# 4. 大人のプログラミングクラブ
+st.subheader("🧑 大人のプログラミングクラブ")
+st.write("「稼ぐ力」に特化。高単価案件の獲得を目指し、実案件レベルの課題に挑戦する特別コースです。")
+st.caption("対象: 『ゆるく、長く、確実に』プログラミングを学びたい方 / 期間: 24ヶ月")
+st.page_link("pages/oldprogramclub.py", label="スパルタコースの詳細・お申し込み", icon="⚔️")
+
+
+st.markdown("---")
+
 # 会社情報（TOPページにもあると信頼性が増します）
 st.header("運営会社情報")
 
